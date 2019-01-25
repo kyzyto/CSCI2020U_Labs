@@ -1,3 +1,9 @@
+<<<<<<< HEAD:build/tmp/jar/MANIFEST.MF
+Manifest-Version: 1.0
+Main-Class: csci2020u.lab02.CSVDemo
+
+=======
 Manifest-Version: 1.0
 Main-Class: csci2020u.lab02.SimpleTest
 
+>>>>>>> f71d9466a6cf3195dc1ca93555ec7cfadd298470:lab02/build/tmp/jar/MANIFEST.MF

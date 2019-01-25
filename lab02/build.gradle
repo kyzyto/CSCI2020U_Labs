@@ -1,7 +1,17 @@
-apply plugin: 'java'
+plugins {
+  id 'java'
+}
+
+repositories {
+   mavenCentral()
+}
+
+dependencies {
+  implementation 'org.apache.commons:commons-csv:1.6'
+}
 
 jar {
   manifest {
-    attributes 'Main-Class': 'csci2020u.lab02.SimpleTest'
+    attributes 'Main-Class': 'csci2020u.lab02.CSVDemo'
   }
 }
