@@ -1,3 +1,5 @@
+package sample;
+
 import java.io.*;
 import java.net.*;
 import javafx.application.Application;
@@ -10,9 +12,8 @@ import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 public class Client extends Application {
-    // IO streams
+    // IO stream
     DataOutputStream toServer;
-    DataInputStream fromServer;
 
     @Override
     public void start(Stage primaryStage) {
